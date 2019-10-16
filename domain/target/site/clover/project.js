@@ -1,0 +1,2 @@
+processClover (  {"children":["com/ada/stockexchange/domain/"],"name":"Clover database mer. oct. 16 2019 15:27:31 CEST","stats":{"AvgMethodComplexity":1.25,"Complexity":15,"ErroneousTests":0,"FailingTests":0,"FilteredElements":0,"PassingTests":0,"PcErroneousTests":-1,"PcFailingTests":-1,"PcPassingTests":-1,"TestExecutionTime":0,"Tests":0,"TotalChildren":1,"TotalPercentageCovered":69.44444,"TotalStatements":18,"UncoveredElements":11},"title":"domain 1.0-SNAPSHOT"}
+ ); 

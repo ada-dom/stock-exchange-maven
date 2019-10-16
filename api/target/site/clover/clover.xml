@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1571232484171" clover="4.1.2">
+   <project name="api 1.0-SNAPSHOT" timestamp="1571232459570">
+      <metrics coveredelements="17" complexity="9" loc="76" methods="9" classes="3" statements="12" packages="1" coveredconditionals="0" coveredmethods="7" elements="21" ncloc="57" files="3" conditionals="0" coveredstatements="10"/>
+      <package name="com.ada.stockexchange.api">
+         <metrics coveredelements="17" complexity="9" loc="76" methods="9" classes="3" statements="12" coveredconditionals="0" coveredmethods="7" elements="21" ncloc="57" files="3" conditionals="0" coveredstatements="10"/>
+         <file path="C:\dev\switchfully\stock-exchange\api\src\main\java\com\ada\stockexchange\api\StockDto.java" name="StockDto.java">
+            <metrics coveredelements="11" coveredconditionals="0" complexity="6" loc="45" coveredmethods="4" methods="6" elements="15" classes="1" ncloc="35" statements="9" conditionals="0" coveredstatements="7"/>
+            <class name="StockDto">
+               <metrics coveredelements="11" coveredconditionals="0" complexity="6" coveredmethods="4" methods="6" elements="15" statements="9" conditionals="0" coveredstatements="7"/>
+            </class>
+            <line complexity="1" visibility="public" signature="StockDto(String,String,BigDecimal,String)" num="15" count="2" type="method"/>
+            <line num="16" count="2" type="stmt"/>
+            <line num="17" count="2" type="stmt"/>
+            <line num="18" count="2" type="stmt"/>
+            <line num="19" count="2" type="stmt"/>
+            <line complexity="1" visibility="public" signature="getId() : String" num="22" count="2" type="method"/>
+            <line num="23" count="2" type="stmt"/>
+            <line complexity="1" visibility="public" signature="getName() : String" num="26" count="2" type="method"/>
+            <line num="27" count="2" type="stmt"/>
+            <line complexity="1" visibility="public" signature="getPrice() : BigDecimal" num="30" count="0" type="method"/>
+            <line num="31" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="getCurrency() : String" num="34" count="2" type="method"/>
+            <line num="35" count="2" type="stmt"/>
+            <line complexity="1" visibility="public" signature="toString() : String" num="38" count="0" type="method"/>
+            <line num="40" count="0" type="stmt"/>
+         </file>
+         <file path="C:\dev\switchfully\stock-exchange\api\src\main\java\com\ada\stockexchange\api\StockExchangeController.java" name="StockExchangeController.java">
+            <metrics coveredelements="4" coveredconditionals="0" complexity="2" loc="16" coveredmethods="2" methods="2" elements="4" classes="1" ncloc="11" statements="2" conditionals="0" coveredstatements="2"/>
+            <class name="StockExchangeController">
+               <metrics coveredelements="4" coveredconditionals="0" complexity="2" coveredmethods="2" methods="2" elements="4" statements="2" conditionals="0" coveredstatements="2"/>
+            </class>
+            <line complexity="1" visibility="public" signature="StockExchangeController(StockService)" num="9" count="2" type="method"/>
+            <line num="10" count="2" type="stmt"/>
+            <line complexity="1" visibility="public" signature="getStock(String) : StockDto" num="13" count="2" type="method"/>
+            <line num="14" count="2" type="stmt"/>
+         </file>
+         <file path="C:\dev\switchfully\stock-exchange\api\src\main\java\com\ada\stockexchange\api\StockMapper.java" name="StockMapper.java">
+            <metrics coveredelements="2" coveredconditionals="0" complexity="1" loc="15" coveredmethods="1" methods="1" elements="2" classes="1" ncloc="11" statements="1" conditionals="0" coveredstatements="1"/>
+            <class name="StockMapper">
+               <metrics coveredelements="2" coveredconditionals="0" complexity="1" coveredmethods="1" methods="1" elements="2" statements="1" conditionals="0" coveredstatements="1"/>
+            </class>
+            <line complexity="1" visibility="public" signature="mapToDto(Stock) : StockDto" num="7" count="2" type="method"/>
+            <line num="8" count="2" type="stmt"/>
+         </file>
+      </package>
+   </project>
+   <testproject name="api 1.0-SNAPSHOT" timestamp="1571232459570">
+      <metrics coveredelements="14" complexity="2" loc="36" methods="2" classes="1" statements="12" packages="1" coveredconditionals="0" coveredmethods="2" elements="14" ncloc="25" files="1" conditionals="0" coveredstatements="12"/>
+      <package name="default-pkg">
+         <metrics coveredelements="14" complexity="2" loc="36" methods="2" classes="1" statements="12" coveredconditionals="0" coveredmethods="2" elements="14" ncloc="25" files="1" conditionals="0" coveredstatements="12"/>
+         <file path="C:\dev\switchfully\stock-exchange\api\src\test\java\StockExchangeControllerTest.java" name="StockExchangeControllerTest.java">
+            <metrics coveredelements="14" coveredconditionals="0" complexity="2" loc="36" coveredmethods="2" methods="2" elements="14" classes="1" ncloc="25" statements="12" conditionals="0" coveredstatements="12"/>
+            <class name="StockExchangeControllerTest">
+               <metrics coveredelements="14" coveredconditionals="0" complexity="2" coveredmethods="2" methods="2" elements="14" statements="12" conditionals="0" coveredstatements="12"/>
+            </class>
+            <line complexity="1" visibility="package" signature="givenADatabase_whenStockExchangeControllerAskForIdAA_thenStockDTOContainingIsReturned() : void" num="11" count="1" type="method"/>
+            <line num="15" count="1" type="stmt"/>
+            <line num="16" count="1" type="stmt"/>
+            <line num="17" count="1" type="stmt"/>
+            <line num="19" count="1" type="stmt"/>
+            <line num="20" count="1" type="stmt"/>
+            <line num="21" count="1" type="stmt"/>
+            <line complexity="1" visibility="package" signature="givenADatabase_whenStoclExchangeControllerAskForUnknownId_theReturnAnUknownDTO() : void" num="24" count="1" type="method"/>
+            <line num="28" count="1" type="stmt"/>
+            <line num="29" count="1" type="stmt"/>
+            <line num="30" count="1" type="stmt"/>
+            <line num="32" count="1" type="stmt"/>
+            <line num="33" count="1" type="stmt"/>
+            <line num="34" count="1" type="stmt"/>
+         </file>
+      </package>
+   </testproject>
+</coverage>

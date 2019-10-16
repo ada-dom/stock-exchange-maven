@@ -1,0 +1,4 @@
+com\ada\stockexchange\domain\StockRepository.class
+com\ada\stockexchange\domain\StockPrice.class
+com\ada\stockexchange\domain\Stock.class
+com\ada\stockexchange\domain\StockCurrency.class

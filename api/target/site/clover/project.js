@@ -1,0 +1,2 @@
+processClover (  {"children":["com/ada/stockexchange/api/"],"name":"Clover database mer. oct. 16 2019 15:27:38 CEST","stats":{"AvgMethodComplexity":1,"Complexity":9,"ErroneousTests":0,"FailingTests":0,"FilteredElements":0,"PassingTests":0,"PcErroneousTests":-1,"PcFailingTests":-1,"PcPassingTests":-1,"TestExecutionTime":0,"Tests":0,"TotalChildren":1,"TotalPercentageCovered":80.952385,"TotalStatements":12,"UncoveredElements":4},"title":"api 1.0-SNAPSHOT"}
+ ); 
