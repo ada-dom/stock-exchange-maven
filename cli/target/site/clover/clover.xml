@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1571232486370" clover="4.1.2">
+<coverage generated="1571232803572" clover="4.4.1">
    <project name="cli 1.0-SNAPSHOT" timestamp="0">
       <metrics coveredelements="0" complexity="2" loc="16" methods="1" classes="1" statements="3" packages="1" coveredconditionals="0" coveredmethods="0" elements="6" ncloc="11" files="1" conditionals="2" coveredstatements="0"/>
       <package name="com.ada.stockexchange.cli">

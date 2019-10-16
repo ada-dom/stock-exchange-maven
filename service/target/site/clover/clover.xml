@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1571232481919" clover="4.1.2">
-   <project name="service 1.0-SNAPSHOT" timestamp="1571232459571">
+<coverage generated="1571232799327" clover="4.4.1">
+   <project name="service 1.0-SNAPSHOT" timestamp="1571232787680">
       <metrics coveredelements="10" complexity="3" loc="31" methods="2" classes="1" statements="8" packages="1" coveredconditionals="0" coveredmethods="2" elements="10" ncloc="24" files="1" conditionals="0" coveredstatements="8"/>
       <package name="com.ada.stockexchange.service">
          <metrics coveredelements="10" complexity="3" loc="31" methods="2" classes="1" statements="8" coveredconditionals="0" coveredmethods="2" elements="10" ncloc="24" files="1" conditionals="0" coveredstatements="8"/>
@@ -22,7 +22,7 @@
          </file>
       </package>
    </project>
-   <testproject name="service 1.0-SNAPSHOT" timestamp="1571232459571">
+   <testproject name="service 1.0-SNAPSHOT" timestamp="1571232787680">
       <metrics coveredelements="0" complexity="0" loc="0" methods="0" classes="0" statements="0" packages="0" coveredconditionals="0" coveredmethods="0" elements="0" ncloc="0" files="0" conditionals="0" coveredstatements="0"/>
    </testproject>
 </coverage>

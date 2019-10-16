@@ -1,4 +1,4 @@
-C:\dev\switchfully\stock-exchange\domain\src\main\java\com\ada\stockexchange\domain\StockPrice.java
-C:\dev\switchfully\stock-exchange\domain\src\main\java\com\ada\stockexchange\domain\StockCurrency.java
-C:\dev\switchfully\stock-exchange\domain\src\main\java\com\ada\stockexchange\domain\StockRepository.java
-C:\dev\switchfully\stock-exchange\domain\src\main\java\com\ada\stockexchange\domain\Stock.java
+C:\dev\switchfully\stock-exchange\domain\target\clover\src-instrumented\com\ada\stockexchange\domain\StockRepository.java
+C:\dev\switchfully\stock-exchange\domain\target\clover\src-instrumented\com\ada\stockexchange\domain\StockPrice.java
+C:\dev\switchfully\stock-exchange\domain\target\clover\src-instrumented\com\ada\stockexchange\domain\StockCurrency.java
+C:\dev\switchfully\stock-exchange\domain\target\clover\src-instrumented\com\ada\stockexchange\domain\Stock.java

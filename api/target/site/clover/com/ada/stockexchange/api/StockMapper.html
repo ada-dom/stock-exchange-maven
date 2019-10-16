@@ -42,14 +42,14 @@
         <div class="aui-header-inner">
             <div class="aui-header-primary">
                 <h1 id="logo" class="aui-header-logo aui-header-logo-clover">
-                    <a href="http://www.atlassian.com/clover" title="Open Atlassian Clover home page"><span class="aui-header-logo-device">Clover</span></a>
+                    <a href="http://openclover.org" title="Visit OpenClover home page"><span class="aui-header-logo-device">OpenClover</span></a>
                 </h1>
                             </div>
             <div class="aui-header-secondary">
                 <ul class="aui-nav">
                     <li id="system-help-menu">
-                        <a class="aui-nav-link" title="Open online Clover documentation" target="_blank"
-                           href="https://confluence.atlassian.com/display/CLOVER/Clover+Documentation+Home">
+                        <a class="aui-nav-link" title="Open online documentation" target="_blank"
+                           href="http://openclover.org/documentation">
                             <span class="aui-icon aui-icon-small aui-iconfont-help">&#160;Help</span>
                         </a>
                     </li>
@@ -113,7 +113,7 @@
                     
                     <ol class="aui-nav aui-nav-breadcrumbs">
             
-        <li><a href="../../../../dashboard.html">Project Clover database mer. oct. 16 2019 15:27:38 CEST</a></li> 
+        <li><a href="../../../../dashboard.html">Project Clover database mer. oct. 16 2019 15:33:06 CEST</a></li> 
         <li><a href="pkg-summary.html">        Package com.ada.stockexchange.api</a></li> 
     </ol>
     
@@ -122,14 +122,6 @@
     </h1>
 
 
-    <div class="aui-message aui-message-warning">
-        <p class="title">
-            <strong>Evaluation License</strong>
-        </p>
-        <p>
-            This report was generated with an evaluation server license.  <a href="http://www.atlassian.com/software/clover">Purchase Clover</a> or <a href="http://confluence.atlassian.com/x/JAgQCQ">configure your license.</a>
-        </p>
-    </div>
 
 
 
@@ -153,9 +145,9 @@
                     <img src="../../../../img/srcFileCovDistChart10.png" alt="../../../../img/srcFileCovDistChart10.png"
                          usemap="#srcFileCovDistChart10.png" class="clover-histogram-img"/>
                     <map id="srcFileCovDistChart10.png" name="srcFileCovDistChart10.png">
-<area shape="rect" coords="100,8,107,65" title="3 files have 91-100% coverage" alt="" nohref="nohref"/>
+<area shape="rect" coords="100,8,107,65" title="2 files have 91-100% coverage" alt="" nohref="nohref"/>
 <area shape="rect" coords="91,66,98,67" title="0 files have 81-90% coverage" alt="" nohref="nohref"/>
-<area shape="rect" coords="82,47,89,66" title="1 file has 71-80% coverage" alt="" nohref="nohref"/>
+<area shape="rect" coords="82,37,89,65" title="1 file has 71-80% coverage" alt="" nohref="nohref"/>
 <area shape="rect" coords="73,66,80,67" title="0 files have 61-70% coverage" alt="" nohref="nohref"/>
 <area shape="rect" coords="64,66,71,67" title="0 files have 51-60% coverage" alt="" nohref="nohref"/>
 <area shape="rect" coords="56,66,63,67" title="0 files have 41-50% coverage" alt="" nohref="nohref"/>
@@ -413,9 +405,96 @@
 
 <h2>Contributing tests</h2>
 
-    <div class="aui-message">
-        <p>No tests hitting this source file were found.</p>
+    <div>
+                This file is covered by 2 tests.
+        <button data-dialog-id="contr-tests-dialog" class="aui-button aui-button-link dialog-show-button">
+            Select tests to highlight the test coverage
+        </button>.
     </div>
+
+<section role="dialog" id="contr-tests-dialog" class="aui-layer aui-dialog2 aui-dialog2-xlarge" aria-hidden="true">
+    
+    <header class="aui-dialog2-header">
+        <h1 class="aui-dialog2-header-main">Contributing tests</h1>
+        <div class="aui-dialog2-header-secondary">
+            <input id="test-filter" class="test-filter text" type="text" name="test-filter"
+                   placeholder="Type to filter tests..." autocomplete="off"
+                   onkeyup="filterTests('tests-body', 'test-filter', 3);"/>
+        </div>
+    </header>
+
+    
+    <div class="aui-dialog2-content">
+    
+
+        <p class="aui-buttons">
+            <button title="Selects all tests for this file, highlighting their coverage."
+                    class="aui-button" id="selectalltests">Select all</button>
+        </p>
+
+        <table class="aui aui-table-sortable">
+            <thead id="tests-head">
+            <tr id="testHeaderRow">
+                <th class="aui-table-column-unsortable"></th>
+                <th>
+                    <label title="The percentage of coverage contributed by each single test.">Test contribution</label>
+                </th>
+                <th>
+                    <label title="The test (or test iteration) which was executed.">Test</label>
+                </th>
+                <th>
+                    <label>Result</label>
+                </th>
+                <th class="aui-table-column-unsortable">
+                    <label>Actions</label>
+                </th>
+            </tr>
+            </thead>
+            <tbody id="tests-body">
+
+<tr id="test-1">
+<td><a name="testA-1"></a><input type="checkbox" id="cb-1" value="1" name="testMethod" autocomplete="off" title="Check to highlight coverage of this test in the source code"/></td>
+<td style="vertical-align: middle" >
+<span class="sortValue">1.0</span>
+<div>
+<div title="100% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:100%"></div></div></div></td>
+<td id="tc-1">  <span class="sortValue">StockExchangeControllerTest.givenADatabase_whenStockExchangeControllerAskForIdAA_thenStockDTOContainingIsReturned</span><a href="../../../../" title="View Test Summary Page">StockExchangeControllerTest.givenADatabase_whenStockExchangeControllerAskForIdAA_thenStockDTOContainingIsReturned</a>
+</td>
+<td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+<td> </td>
+</tr>
+<tr id="test-0">
+<td><a name="testA-0"></a><input type="checkbox" id="cb-0" value="0" name="testMethod" autocomplete="off" title="Check to highlight coverage of this test in the source code"/></td>
+<td style="vertical-align: middle" >
+<span class="sortValue">1.0</span>
+<div>
+<div title="100% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:100%"></div></div></div></td>
+<td id="tc-0">  <span class="sortValue">StockExchangeControllerTest.givenADatabase_whenStoclExchangeControllerAskForUnknownId_theReturnAnUknownDTO</span><a href="../../../../" title="View Test Summary Page">StockExchangeControllerTest.givenADatabase_whenStoclExchangeControllerAskForUnknownId_theReturnAnUknownDTO</a>
+</td>
+<td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+<td> </td>
+</tr>
+
+            </tbody>
+        </table>
+
+        
+        <div>&#160;</div>
+
+    
+    </div>
+
+    
+    <footer class="aui-dialog2-footer">
+        <div class="aui-dialog2-footer-actions">
+            <button data-dialog-id="contr-tests-dialog" class="aui-button aui-button-primary dialog-close-button">Apply</button>
+        </div>
+        <div class="aui-dialog2-footer-hint">Select tests to highlight code covered by them in the source view.</div>
+    </footer>
+</section>
+
  
         
         
@@ -495,7 +574,7 @@
 </tr>
 <tr id="l5">
 <td align="right" class="lineCount NoHilight"><a class="lineNumHref" href="?line=5#src-5">5</a></td>
-<td align="right" class="coverageCount NoHilight "   >&#160;&#160;</td>
+<td align="right" class="coverageCount NoHilight "   onclick="return showTestsForLine(this, 5, 'Tests that hit StockMapper');" >&#160;&#160;</td>
 <td class=" srcCell" id="id-5"><span class="spacer"></span><span id="src-5" class="srcLine"><span class="keyword">public</span> <span class="keyword">class</span> <a href="../../../../com/ada/stockexchange/api/StockMapper.html#StockMapper">StockMapper</a> {</span></td>
 </tr>
  <tr id="l6">
@@ -520,12 +599,12 @@
 </tr>
 <tr id="l7">
 <td align="right" class="lineCount Good"><a class="lineNumHref" href="?line=7#src-7">7</a></td>
-<td align="right" class="coverageCount Good missedByTest"   ><span title="Line 7, Col 5: method entered 2 times." class="nolink">&#160;2</span></td>
+<td align="right" class="coverageCount Good hitByTest"   onclick="return showTestsForLine(this, 7, 'Tests that hit mapToDto(Stock)&#160;:&#160;StockDto');" ><span title="Line 7, Col 5: method entered 2 times." class="nolink">&#160;2</span></td>
 <td class=" methodStart  srcCell" id="id-7"><img title="Method Statistics" onclick="toggleSrcRowVis(this, 7,13);" id="img-7" src="../../../../img/collapse.gif"  alt="toggle" class="icon"/><span id="src-7" class="srcLine"><span class="nolink" title="Line 7, Col 5: method entered 2 times.">    <span class="keyword">public</span> <span class="keyword">static</span> <a href="../../../../com/ada/stockexchange/api/StockDto.html#StockDto">StockDto</a> mapToDto(Stock stock) {</span><span class="foldControl" onclick="toggleSrcRowVis(document.getElementById('img-7'), 7,13);" id="e7" style="display:none;border:none;">...</span></span></td>
 </tr>
  <tr id="l8">
 <td align="right" class="lineCount Good"><a class="lineNumHref" href="?line=8#src-8">8</a></td>
-<td align="right" class="coverageCount Good missedByTest"   ><span title="Line 8, Col 9: statement executed 2 times." class="nolink">&#160;2</span></td>
+<td align="right" class="coverageCount Good hitByTest"   onclick="return showTestsForLine(this, 8, 'Tests that hit line # 8');" ><span title="Line 8, Col 9: statement executed 2 times." class="nolink">&#160;2</span></td>
 <td class=" srcCell" ><span class="spacer"></span><span id="src-8" class="srcLine"><span class="nolink" title="Line 8, Col 9: statement executed 2 times.">        <span class="keyword">return</span> <span class="keyword">new</span> <a href="../../../../com/ada/stockexchange/api/StockDto.html#StockDto">StockDto</a>(</span></span></td>
 </tr>
  <tr id="l9">
@@ -586,18 +665,13 @@
     <section class="footer-body">
         <ul>
             <li>
-                Report generated by <a target="_new" href="http://www.atlassian.com/software/clover">Atlassian Clover</a> v 4.1.2
-                on mer. oct. 16 2019 15:28:03 CEST using coverage data from mer. oct. 16 2019 15:27:39 CEST.
+                Report generated by <a target="_new" href="http://openclover.org">OpenClover</a> v 4.4.1
+                on mer. oct. 16 2019 15:33:20 CEST using coverage data from mer. oct. 16 2019 15:33:07 CEST.
             </li>
         </ul>
         <ul>
-            <li>Clover Evaluation License registered to Clover Maven Plugin. You have 29 day(s) before your license expires.</li>
+            <li>OpenClover is free and open-source software. </li>
         </ul>
-        <div id="footer-logo">
-            <a target="_blank" href="http://www.atlassian.com/">
-                Atlassian
-            </a>
-        </div>
     </section>
 </footer>                </section> <!-- class="aui-page-panel-content" -->
             </div> <!-- class="aui-page-panel-inner" -->

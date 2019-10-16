@@ -1,5 +1,5 @@
-var treeMapJson = {"id":"Clover database mer. oct. 16 2019 15:27:50 CEST0","name":"","data":{
-    "$area":75.0,"$color":69.333336,"title":" 75 Elements, 69,3% Coverage"},
+var treeMapJson = {"id":"Clover database mer. oct. 16 2019 15:33:09 CEST0","name":"","data":{
+    "$area":75.0,"$color":86.666664,"title":" 75 Elements, 86,7% Coverage"},
   "children":[{"id":"com.ada.stockexchange.service0","name":
       "com.ada.stockexchange.service","data":{"$area":10.0,"$color":100.0,
         "title":"com.ada.stockexchange.service 10 Elements, 100% Coverage"},
@@ -14,21 +14,20 @@ var treeMapJson = {"id":"Clover database mer. oct. 16 2019 15:27:50 CEST0","name
             "path":"com/ada/stockexchange/cli/MyCLI.html#MyCLI","title":
             "MyCLI 6 Elements, 0% Coverage"},"children":[]}]},{"id":
       "com.ada.stockexchange.domain16","name":
-      "com.ada.stockexchange.domain","data":{"$area":36.0,"$color":
-        69.44444,"title":
-        "com.ada.stockexchange.domain 36 Elements, 69,4% Coverage"},
+      "com.ada.stockexchange.domain","data":{"$area":36.0,"$color":100.0,
+        "title":"com.ada.stockexchange.domain 36 Elements, 100% Coverage"},
       "children":[{"id":"Stock16","name":"Stock","data":{"$area":17.0,
-            "$color":76.47059,"path":
+            "$color":100.0,"path":
             "com/ada/stockexchange/domain/Stock.html#Stock","title":
-            "Stock 17 Elements, 76,5% Coverage"},"children":[]},{"id":
+            "Stock 17 Elements, 100% Coverage"},"children":[]},{"id":
           "StockCurrency33","name":"StockCurrency","data":{"$area":5.0,
             "$color":100.0,"path":
             "com/ada/stockexchange/domain/StockCurrency.html#StockCurrency",
             "title":"StockCurrency 5 Elements, 100% Coverage"},"children":[]},
         {"id":"StockPrice38","name":"StockPrice","data":{"$area":7.0,
-            "$color":0.0,"path":
+            "$color":100.0,"path":
             "com/ada/stockexchange/domain/StockPrice.html#StockPrice",
-            "title":"StockPrice 7 Elements, 0% Coverage"},"children":[]},{
+            "title":"StockPrice 7 Elements, 100% Coverage"},"children":[]},{
           "id":"StockRepository45","name":"StockRepository","data":{"$area":
             7.0,"$color":100.0,"path":
             "com/ada/stockexchange/domain/StockRepository.html#StockRepository",
@@ -49,14 +48,15 @@ var treeMapJson = {"id":"Clover database mer. oct. 16 2019 15:27:50 CEST0","name
             "com/ada/stockexchange/api/StockMapper.html#StockMapper","title":
             "StockMapper 2 Elements, 100% Coverage"},"children":[]}]},{"id":
       "com.ada.stockexchange.interfaces102","name":
-      "com.ada.stockexchange.interfaces","data":{"$area":2.0,"$color":0.0,
-        "title":"com.ada.stockexchange.interfaces 2 Elements, 0% Coverage"},
+      "com.ada.stockexchange.interfaces","data":{"$area":2.0,"$color":
+        100.0,"title":
+        "com.ada.stockexchange.interfaces 2 Elements, 100% Coverage"},
       "children":[{"id":"ExternalStockInformationService102","name":
           "ExternalStockInformationService","data":{"$area":2.0,"$color":
-            0.0,"path":
+            100.0,"path":
             "com/ada/stockexchange/interfaces/ExternalStockInformationService.html#ExternalStockInformationService",
             "title":
-            "ExternalStockInformationService 2 Elements, 0% Coverage"},
+            "ExternalStockInformationService 2 Elements, 100% Coverage"},
           "children":[]}]}]}
 ;
 processTreeMapJson (treeMapJson);

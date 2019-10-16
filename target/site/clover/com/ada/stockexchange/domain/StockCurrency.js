@@ -4,7 +4,7 @@ var clover = new Object();
 clover.pageData = {"classes":[{"el":19,"id":33,"methods":[{"el":14,"sc":5,"sl":11},{"el":18,"sc":5,"sl":16}],"name":"StockCurrency","sl":3}]}
 
 // JSON: {test_ID : {"methods": [ID1, ID2, ID3...], "name" : "testXXX() void"}, ...};
-clover.testTargets = {}
+clover.testTargets = {"test_0":{"methods":[{"sl":16}],"name":"givenADatabase_whenStockExchangeControllerAskForIdAA_thenStockDTOContainingIsReturned","pass":true,"statements":[{"sl":17}]},"test_1":{"methods":[{"sl":11},{"sl":16}],"name":"givenADatabase_whenStoclExchangeControllerAskForUnknownId_theReturnAnUknownDTO","pass":true,"statements":[{"sl":12},{"sl":13},{"sl":17}]},"test_4":{"methods":[{"sl":11},{"sl":16}],"name":"givenStockWithNoPrice_whenAskingForCurrency_thenTheDefaultEuroIsReturned","pass":true,"statements":[{"sl":12},{"sl":13},{"sl":17}]}}
 
 // JSON: { lines : [{tests : [testid1, testid2, testid3, ...]}, ...]};
-clover.srcFileLines = [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+clover.srcFileLines = [[], [], [], [], [], [], [], [], [], [], [], [4, 1], [4, 1], [4, 1], [], [], [4, 0, 1], [4, 0, 1], [], []]

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1571232484171" clover="4.1.2">
-   <project name="api 1.0-SNAPSHOT" timestamp="1571232459570">
+<coverage generated="1571232801485" clover="4.4.1">
+   <project name="api 1.0-SNAPSHOT" timestamp="1571232787680">
       <metrics coveredelements="17" complexity="9" loc="76" methods="9" classes="3" statements="12" packages="1" coveredconditionals="0" coveredmethods="7" elements="21" ncloc="57" files="3" conditionals="0" coveredstatements="10"/>
       <package name="com.ada.stockexchange.api">
          <metrics coveredelements="17" complexity="9" loc="76" methods="9" classes="3" statements="12" coveredconditionals="0" coveredmethods="7" elements="21" ncloc="57" files="3" conditionals="0" coveredstatements="10"/>
@@ -45,23 +45,23 @@
          </file>
       </package>
    </project>
-   <testproject name="api 1.0-SNAPSHOT" timestamp="1571232459570">
+   <testproject name="api 1.0-SNAPSHOT" timestamp="1571232787680">
       <metrics coveredelements="14" complexity="2" loc="36" methods="2" classes="1" statements="12" packages="1" coveredconditionals="0" coveredmethods="2" elements="14" ncloc="25" files="1" conditionals="0" coveredstatements="12"/>
       <package name="default-pkg">
          <metrics coveredelements="14" complexity="2" loc="36" methods="2" classes="1" statements="12" coveredconditionals="0" coveredmethods="2" elements="14" ncloc="25" files="1" conditionals="0" coveredstatements="12"/>
          <file path="C:\dev\switchfully\stock-exchange\api\src\test\java\StockExchangeControllerTest.java" name="StockExchangeControllerTest.java">
             <metrics coveredelements="14" coveredconditionals="0" complexity="2" loc="36" coveredmethods="2" methods="2" elements="14" classes="1" ncloc="25" statements="12" conditionals="0" coveredstatements="12"/>
             <class name="StockExchangeControllerTest">
-               <metrics coveredelements="14" coveredconditionals="0" complexity="2" coveredmethods="2" methods="2" elements="14" statements="12" conditionals="0" coveredstatements="12"/>
+               <metrics coveredelements="14" complexity="2" methods="2" testruns="2" statements="12" coveredconditionals="0" coveredmethods="2" elements="14" testfailures="0" testduration="0.085" conditionals="0" coveredstatements="12" testpasses="2"/>
             </class>
-            <line complexity="1" visibility="package" signature="givenADatabase_whenStockExchangeControllerAskForIdAA_thenStockDTOContainingIsReturned() : void" num="11" count="1" type="method"/>
+            <line complexity="1" visibility="package" signature="givenADatabase_whenStockExchangeControllerAskForIdAA_thenStockDTOContainingIsReturned() : void" num="11" testsuccess="true" count="1" testduration="0.0" type="method"/>
             <line num="15" count="1" type="stmt"/>
             <line num="16" count="1" type="stmt"/>
             <line num="17" count="1" type="stmt"/>
             <line num="19" count="1" type="stmt"/>
             <line num="20" count="1" type="stmt"/>
             <line num="21" count="1" type="stmt"/>
-            <line complexity="1" visibility="package" signature="givenADatabase_whenStoclExchangeControllerAskForUnknownId_theReturnAnUknownDTO() : void" num="24" count="1" type="method"/>
+            <line complexity="1" visibility="package" signature="givenADatabase_whenStoclExchangeControllerAskForUnknownId_theReturnAnUknownDTO() : void" num="24" testsuccess="true" count="1" testduration="0.085" type="method"/>
             <line num="28" count="1" type="stmt"/>
             <line num="29" count="1" type="stmt"/>
             <line num="30" count="1" type="stmt"/>

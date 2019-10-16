@@ -26,7 +26,6 @@
         <junit.jupiter.version>5.5.2</junit.jupiter.version>
         <guava.version>28.1-jre</guava.version>
         <commonlang3.version>3.9</commonlang3.version>
-        <clover.version>4.0.0</clover.version>
     </properties>
 
     <dependencyManagement>
@@ -83,13 +82,6 @@
                 <artifactId>commons-lang3</artifactId>
                 <version>${commonlang3.version}</version>
             </dependency>
-
-            <!-- https://mvnrepository.com/artifact/com.atlassian.clover/clover -->
-            <dependency>
-                <groupId>com.atlassian.clover</groupId>
-                <artifactId>clover</artifactId>
-                <version>${clover.version}</version>
-            </dependency>
         </dependencies>
     </dependencyManagement>
 
@@ -115,19 +107,8 @@
                     </executions>
                 </plugin>
                 <plugin>
-                    <groupId>com.atlassian.maven.plugins</groupId>
+                    <groupId>org.openclover</groupId>
                     <artifactId>clover-maven-plugin</artifactId>
-                    <configuration>
-                        <targetPercentage>50%</targetPercentage>
-                    </configuration>
-                    <executions>
-                        <execution>
-                            <phase>verify</phase>
-                            <goals>
-                                <goal>check</goal>
-                            </goals>
-                        </execution>
-                    </executions>
                 </plugin>
             </plugins>
         </pluginManagement>

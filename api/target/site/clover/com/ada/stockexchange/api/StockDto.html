@@ -42,14 +42,14 @@
         <div class="aui-header-inner">
             <div class="aui-header-primary">
                 <h1 id="logo" class="aui-header-logo aui-header-logo-clover">
-                    <a href="http://www.atlassian.com/clover" title="Open Atlassian Clover home page"><span class="aui-header-logo-device">Clover</span></a>
+                    <a href="http://openclover.org" title="Visit OpenClover home page"><span class="aui-header-logo-device">OpenClover</span></a>
                 </h1>
                             </div>
             <div class="aui-header-secondary">
                 <ul class="aui-nav">
                     <li id="system-help-menu">
-                        <a class="aui-nav-link" title="Open online Clover documentation" target="_blank"
-                           href="https://confluence.atlassian.com/display/CLOVER/Clover+Documentation+Home">
+                        <a class="aui-nav-link" title="Open online documentation" target="_blank"
+                           href="http://openclover.org/documentation">
                             <span class="aui-icon aui-icon-small aui-iconfont-help">&#160;Help</span>
                         </a>
                     </li>
@@ -113,7 +113,7 @@
                     
                     <ol class="aui-nav aui-nav-breadcrumbs">
             
-        <li><a href="../../../../dashboard.html">Project Clover database mer. oct. 16 2019 15:27:38 CEST</a></li> 
+        <li><a href="../../../../dashboard.html">Project Clover database mer. oct. 16 2019 15:33:06 CEST</a></li> 
         <li><a href="pkg-summary.html">        Package com.ada.stockexchange.api</a></li> 
     </ol>
     
@@ -122,14 +122,6 @@
     </h1>
 
 
-    <div class="aui-message aui-message-warning">
-        <p class="title">
-            <strong>Evaluation License</strong>
-        </p>
-        <p>
-            This report was generated with an evaluation server license.  <a href="http://www.atlassian.com/software/clover">Purchase Clover</a> or <a href="http://confluence.atlassian.com/x/JAgQCQ">configure your license.</a>
-        </p>
-    </div>
 
 
 
@@ -153,9 +145,9 @@
                     <img src="../../../../img/srcFileCovDistChart8.png" alt="../../../../img/srcFileCovDistChart8.png"
                          usemap="#srcFileCovDistChart8.png" class="clover-histogram-img"/>
                     <map id="srcFileCovDistChart8.png" name="srcFileCovDistChart8.png">
-<area shape="rect" coords="100,8,107,65" title="3 files have 91-100% coverage" alt="" nohref="nohref"/>
+<area shape="rect" coords="100,8,107,65" title="2 files have 91-100% coverage" alt="" nohref="nohref"/>
 <area shape="rect" coords="91,66,98,67" title="0 files have 81-90% coverage" alt="" nohref="nohref"/>
-<area shape="rect" coords="82,47,89,66" title="1 file has 71-80% coverage" alt="" nohref="nohref"/>
+<area shape="rect" coords="82,37,89,65" title="1 file has 71-80% coverage" alt="" nohref="nohref"/>
 <area shape="rect" coords="73,66,80,67" title="0 files have 61-70% coverage" alt="" nohref="nohref"/>
 <area shape="rect" coords="64,66,71,67" title="0 files have 51-60% coverage" alt="" nohref="nohref"/>
 <area shape="rect" coords="56,66,63,67" title="0 files have 41-50% coverage" alt="" nohref="nohref"/>
@@ -165,7 +157,7 @@
 <area shape="rect" coords="20,66,27,67" title="0 files have 1-10% coverage" alt="" nohref="nohref"/>
 <area shape="rect" coords="11,66,18,67" title="0 files have 0% coverage" alt="" nohref="nohref"/>
 </map><br />
-                    <span class="subtle"><strong>75% </strong>of files have more coverage</span>
+                    <span class="subtle"><strong>66% </strong>of files have more coverage</span>
                 </div>
             </div>
         </div>
@@ -478,9 +470,96 @@
 
 <h2>Contributing tests</h2>
 
-    <div class="aui-message">
-        <p>No tests hitting this source file were found.</p>
+    <div>
+                This file is covered by 2 tests.
+        <button data-dialog-id="contr-tests-dialog" class="aui-button aui-button-link dialog-show-button">
+            Select tests to highlight the test coverage
+        </button>.
     </div>
+
+<section role="dialog" id="contr-tests-dialog" class="aui-layer aui-dialog2 aui-dialog2-xlarge" aria-hidden="true">
+    
+    <header class="aui-dialog2-header">
+        <h1 class="aui-dialog2-header-main">Contributing tests</h1>
+        <div class="aui-dialog2-header-secondary">
+            <input id="test-filter" class="test-filter text" type="text" name="test-filter"
+                   placeholder="Type to filter tests..." autocomplete="off"
+                   onkeyup="filterTests('tests-body', 'test-filter', 3);"/>
+        </div>
+    </header>
+
+    
+    <div class="aui-dialog2-content">
+    
+
+        <p class="aui-buttons">
+            <button title="Selects all tests for this file, highlighting their coverage."
+                    class="aui-button" id="selectalltests">Select all</button>
+        </p>
+
+        <table class="aui aui-table-sortable">
+            <thead id="tests-head">
+            <tr id="testHeaderRow">
+                <th class="aui-table-column-unsortable"></th>
+                <th>
+                    <label title="The percentage of coverage contributed by each single test.">Test contribution</label>
+                </th>
+                <th>
+                    <label title="The test (or test iteration) which was executed.">Test</label>
+                </th>
+                <th>
+                    <label>Result</label>
+                </th>
+                <th class="aui-table-column-unsortable">
+                    <label>Actions</label>
+                </th>
+            </tr>
+            </thead>
+            <tbody id="tests-body">
+
+<tr id="test-1">
+<td><a name="testA-1"></a><input type="checkbox" id="cb-1" value="1" name="testMethod" autocomplete="off" title="Check to highlight coverage of this test in the source code"/></td>
+<td style="vertical-align: middle" >
+<span class="sortValue">0.73333335</span>
+<div>
+<div title="73,3% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:73.3%"></div></div></div></td>
+<td id="tc-1">  <span class="sortValue">StockExchangeControllerTest.givenADatabase_whenStockExchangeControllerAskForIdAA_thenStockDTOContainingIsReturned</span><a href="../../../../" title="View Test Summary Page">StockExchangeControllerTest.givenADatabase_whenStockExchangeControllerAskForIdAA_thenStockDTOContainingIsReturned</a>
+</td>
+<td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+<td> </td>
+</tr>
+<tr id="test-0">
+<td><a name="testA-0"></a><input type="checkbox" id="cb-0" value="0" name="testMethod" autocomplete="off" title="Check to highlight coverage of this test in the source code"/></td>
+<td style="vertical-align: middle" >
+<span class="sortValue">0.73333335</span>
+<div>
+<div title="73,3% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:73.3%"></div></div></div></td>
+<td id="tc-0">  <span class="sortValue">StockExchangeControllerTest.givenADatabase_whenStoclExchangeControllerAskForUnknownId_theReturnAnUknownDTO</span><a href="../../../../" title="View Test Summary Page">StockExchangeControllerTest.givenADatabase_whenStoclExchangeControllerAskForUnknownId_theReturnAnUknownDTO</a>
+</td>
+<td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+<td> </td>
+</tr>
+
+            </tbody>
+        </table>
+
+        
+        <div>&#160;</div>
+
+    
+    </div>
+
+    
+    <footer class="aui-dialog2-footer">
+        <div class="aui-dialog2-footer-actions">
+            <button data-dialog-id="contr-tests-dialog" class="aui-button aui-button-primary dialog-close-button">Apply</button>
+        </div>
+        <div class="aui-dialog2-footer-hint">Select tests to highlight code covered by them in the source view.</div>
+    </footer>
+</section>
+
  
         
         
@@ -565,7 +644,7 @@
 </tr>
 <tr id="l6">
 <td align="right" class="lineCount NoHilight"><a class="lineNumHref" href="?line=6#src-6">6</a></td>
-<td align="right" class="coverageCount NoHilight "   >&#160;&#160;</td>
+<td align="right" class="coverageCount NoHilight "   onclick="return showTestsForLine(this, 6, 'Tests that hit StockDto');" >&#160;&#160;</td>
 <td class=" srcCell" id="id-6"><span class="spacer"></span><span id="src-6" class="srcLine"><span class="keyword">public</span> <span class="keyword">class</span> <a href="../../../../com/ada/stockexchange/api/StockDto.html#StockDto">StockDto</a> <span class="keyword">implements</span> Serializable {</span></td>
 </tr>
  <tr id="l7">
@@ -625,27 +704,27 @@
 </tr>
 <tr id="l15">
 <td align="right" class="lineCount Good"><a class="lineNumHref" href="?line=15#src-15">15</a></td>
-<td align="right" class="coverageCount Good missedByTest"   ><span title="Line 15, Col 5: method entered 2 times." class="nolink">&#160;2</span></td>
+<td align="right" class="coverageCount Good hitByTest"   onclick="return showTestsForLine(this, 15, 'Tests that hit StockDto(String,String,BigDecimal,String)');" ><span title="Line 15, Col 5: method entered 2 times." class="nolink">&#160;2</span></td>
 <td class=" methodStart  srcCell" id="id-15"><img title="Method Statistics" onclick="toggleSrcRowVis(this, 15,20);" id="img-15" src="../../../../img/collapse.gif"  alt="toggle" class="icon"/><span id="src-15" class="srcLine"><span class="nolink" title="Line 15, Col 5: method entered 2 times.">    <span class="keyword">public</span> <a href="../../../../com/ada/stockexchange/api/StockDto.html#StockDto">StockDto</a>(String id, String name, BigDecimal price, String currency) {</span><span class="foldControl" onclick="toggleSrcRowVis(document.getElementById('img-15'), 15,20);" id="e15" style="display:none;border:none;">...</span></span></td>
 </tr>
  <tr id="l16">
 <td align="right" class="lineCount Good"><a class="lineNumHref" href="?line=16#src-16">16</a></td>
-<td align="right" class="coverageCount Good missedByTest"   ><span title="Line 16, Col 9: statement executed 2 times." class="nolink">&#160;2</span></td>
+<td align="right" class="coverageCount Good hitByTest"   onclick="return showTestsForLine(this, 16, 'Tests that hit line # 16');" ><span title="Line 16, Col 9: statement executed 2 times." class="nolink">&#160;2</span></td>
 <td class=" srcCell" ><span class="spacer"></span><span id="src-16" class="srcLine"><span class="nolink" title="Line 16, Col 9: statement executed 2 times.">        <span class="keyword">this</span>.id = id;</span></span></td>
 </tr>
  <tr id="l17">
 <td align="right" class="lineCount Good"><a class="lineNumHref" href="?line=17#src-17">17</a></td>
-<td align="right" class="coverageCount Good missedByTest"   ><span title="Line 17, Col 9: statement executed 2 times." class="nolink">&#160;2</span></td>
+<td align="right" class="coverageCount Good hitByTest"   onclick="return showTestsForLine(this, 17, 'Tests that hit line # 17');" ><span title="Line 17, Col 9: statement executed 2 times." class="nolink">&#160;2</span></td>
 <td class=" srcCell" ><span class="spacer"></span><span id="src-17" class="srcLine"><span class="nolink" title="Line 17, Col 9: statement executed 2 times.">        <span class="keyword">this</span>.name = name;</span></span></td>
 </tr>
  <tr id="l18">
 <td align="right" class="lineCount Good"><a class="lineNumHref" href="?line=18#src-18">18</a></td>
-<td align="right" class="coverageCount Good missedByTest"   ><span title="Line 18, Col 9: statement executed 2 times." class="nolink">&#160;2</span></td>
+<td align="right" class="coverageCount Good hitByTest"   onclick="return showTestsForLine(this, 18, 'Tests that hit line # 18');" ><span title="Line 18, Col 9: statement executed 2 times." class="nolink">&#160;2</span></td>
 <td class=" srcCell" ><span class="spacer"></span><span id="src-18" class="srcLine"><span class="nolink" title="Line 18, Col 9: statement executed 2 times.">        <span class="keyword">this</span>.price = price;</span></span></td>
 </tr>
  <tr id="l19">
 <td align="right" class="lineCount Good"><a class="lineNumHref" href="?line=19#src-19">19</a></td>
-<td align="right" class="coverageCount Good missedByTest"   ><span title="Line 19, Col 9: statement executed 2 times." class="nolink">&#160;2</span></td>
+<td align="right" class="coverageCount Good hitByTest"   onclick="return showTestsForLine(this, 19, 'Tests that hit line # 19');" ><span title="Line 19, Col 9: statement executed 2 times." class="nolink">&#160;2</span></td>
 <td class=" srcCell" ><span class="spacer"></span><span id="src-19" class="srcLine"><span class="nolink" title="Line 19, Col 9: statement executed 2 times.">        <span class="keyword">this</span>.currency = currency;</span></span></td>
 </tr>
  <tr id="l20">
@@ -675,12 +754,12 @@
 </tr>
 <tr id="l22">
 <td align="right" class="lineCount Good"><a class="lineNumHref" href="?line=22#src-22">22</a></td>
-<td align="right" class="coverageCount Good missedByTest"   ><span title="Line 22, Col 5: method entered 2 times." class="nolink">&#160;2</span></td>
+<td align="right" class="coverageCount Good hitByTest"   onclick="return showTestsForLine(this, 22, 'Tests that hit getId()&#160;:&#160;String');" ><span title="Line 22, Col 5: method entered 2 times." class="nolink">&#160;2</span></td>
 <td class=" methodStart  srcCell" id="id-22"><img title="Method Statistics" onclick="toggleSrcRowVis(this, 22,24);" id="img-22" src="../../../../img/collapse.gif"  alt="toggle" class="icon"/><span id="src-22" class="srcLine"><span class="nolink" title="Line 22, Col 5: method entered 2 times.">    <span class="keyword">public</span> String getId() {</span><span class="foldControl" onclick="toggleSrcRowVis(document.getElementById('img-22'), 22,24);" id="e22" style="display:none;border:none;">...</span></span></td>
 </tr>
  <tr id="l23">
 <td align="right" class="lineCount Good"><a class="lineNumHref" href="?line=23#src-23">23</a></td>
-<td align="right" class="coverageCount Good missedByTest"   ><span title="Line 23, Col 9: statement executed 2 times." class="nolink">&#160;2</span></td>
+<td align="right" class="coverageCount Good hitByTest"   onclick="return showTestsForLine(this, 23, 'Tests that hit line # 23');" ><span title="Line 23, Col 9: statement executed 2 times." class="nolink">&#160;2</span></td>
 <td class=" srcCell" ><span class="spacer"></span><span id="src-23" class="srcLine"><span class="nolink" title="Line 23, Col 9: statement executed 2 times.">        <span class="keyword">return</span> id;</span></span></td>
 </tr>
  <tr id="l24">
@@ -710,12 +789,12 @@
 </tr>
 <tr id="l26">
 <td align="right" class="lineCount Good"><a class="lineNumHref" href="?line=26#src-26">26</a></td>
-<td align="right" class="coverageCount Good missedByTest"   ><span title="Line 26, Col 5: method entered 2 times." class="nolink">&#160;2</span></td>
+<td align="right" class="coverageCount Good hitByTest"   onclick="return showTestsForLine(this, 26, 'Tests that hit getName()&#160;:&#160;String');" ><span title="Line 26, Col 5: method entered 2 times." class="nolink">&#160;2</span></td>
 <td class=" methodStart  srcCell" id="id-26"><img title="Method Statistics" onclick="toggleSrcRowVis(this, 26,28);" id="img-26" src="../../../../img/collapse.gif"  alt="toggle" class="icon"/><span id="src-26" class="srcLine"><span class="nolink" title="Line 26, Col 5: method entered 2 times.">    <span class="keyword">public</span> String getName() {</span><span class="foldControl" onclick="toggleSrcRowVis(document.getElementById('img-26'), 26,28);" id="e26" style="display:none;border:none;">...</span></span></td>
 </tr>
  <tr id="l27">
 <td align="right" class="lineCount Good"><a class="lineNumHref" href="?line=27#src-27">27</a></td>
-<td align="right" class="coverageCount Good missedByTest"   ><span title="Line 27, Col 9: statement executed 2 times." class="nolink">&#160;2</span></td>
+<td align="right" class="coverageCount Good hitByTest"   onclick="return showTestsForLine(this, 27, 'Tests that hit line # 27');" ><span title="Line 27, Col 9: statement executed 2 times." class="nolink">&#160;2</span></td>
 <td class=" srcCell" ><span class="spacer"></span><span id="src-27" class="srcLine"><span class="nolink" title="Line 27, Col 9: statement executed 2 times.">        <span class="keyword">return</span> name;</span></span></td>
 </tr>
  <tr id="l28">
@@ -780,12 +859,12 @@
 </tr>
 <tr id="l34">
 <td align="right" class="lineCount Good"><a class="lineNumHref" href="?line=34#src-34">34</a></td>
-<td align="right" class="coverageCount Good missedByTest"   ><span title="Line 34, Col 5: method entered 2 times." class="nolink">&#160;2</span></td>
+<td align="right" class="coverageCount Good hitByTest"   onclick="return showTestsForLine(this, 34, 'Tests that hit getCurrency()&#160;:&#160;String');" ><span title="Line 34, Col 5: method entered 2 times." class="nolink">&#160;2</span></td>
 <td class=" methodStart  srcCell" id="id-34"><img title="Method Statistics" onclick="toggleSrcRowVis(this, 34,36);" id="img-34" src="../../../../img/collapse.gif"  alt="toggle" class="icon"/><span id="src-34" class="srcLine"><span class="nolink" title="Line 34, Col 5: method entered 2 times.">    <span class="keyword">public</span> String getCurrency() {</span><span class="foldControl" onclick="toggleSrcRowVis(document.getElementById('img-34'), 34,36);" id="e34" style="display:none;border:none;">...</span></span></td>
 </tr>
  <tr id="l35">
 <td align="right" class="lineCount Good"><a class="lineNumHref" href="?line=35#src-35">35</a></td>
-<td align="right" class="coverageCount Good missedByTest"   ><span title="Line 35, Col 9: statement executed 2 times." class="nolink">&#160;2</span></td>
+<td align="right" class="coverageCount Good hitByTest"   onclick="return showTestsForLine(this, 35, 'Tests that hit line # 35');" ><span title="Line 35, Col 9: statement executed 2 times." class="nolink">&#160;2</span></td>
 <td class=" srcCell" ><span class="spacer"></span><span id="src-35" class="srcLine"><span class="nolink" title="Line 35, Col 9: statement executed 2 times.">        <span class="keyword">return</span> currency;</span></span></td>
 </tr>
  <tr id="l36">
@@ -876,18 +955,13 @@
     <section class="footer-body">
         <ul>
             <li>
-                Report generated by <a target="_new" href="http://www.atlassian.com/software/clover">Atlassian Clover</a> v 4.1.2
-                on mer. oct. 16 2019 15:28:03 CEST using coverage data from mer. oct. 16 2019 15:27:39 CEST.
+                Report generated by <a target="_new" href="http://openclover.org">OpenClover</a> v 4.4.1
+                on mer. oct. 16 2019 15:33:20 CEST using coverage data from mer. oct. 16 2019 15:33:07 CEST.
             </li>
         </ul>
         <ul>
-            <li>Clover Evaluation License registered to Clover Maven Plugin. You have 29 day(s) before your license expires.</li>
+            <li>OpenClover is free and open-source software. </li>
         </ul>
-        <div id="footer-logo">
-            <a target="_blank" href="http://www.atlassian.com/">
-                Atlassian
-            </a>
-        </div>
     </section>
 </footer>                </section> <!-- class="aui-page-panel-content" -->
             </div> <!-- class="aui-page-panel-inner" -->
