@@ -8,12 +8,19 @@
     <artifactId>stock-exchange</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.2.0.RELEASE</version>
+    </parent>
+
     <modules>
         <module>api</module>
         <module>service</module>
         <module>domain</module>
         <module>interfaces</module>
-        <module>cli</module>
+        <module>jar</module>
     </modules>
 
     <properties>
@@ -28,6 +35,7 @@
         <commonlang3.version>3.9</commonlang3.version>
     </properties>
 
+    <!-- Dependencies optional for modules -->
     <dependencyManagement>
         <dependencies>
             <!-- com.ada.stockexchange.domain.Stock Exchange dependencies  -->
@@ -85,33 +93,18 @@
         </dependencies>
     </dependencyManagement>
 
-    <build>
-        <pluginManagement>
-            <plugins>
-                <plugin>
-                    <groupId>org.apache.maven.plugins</groupId>
-                    <artifactId>maven-surefire-plugin</artifactId>
-                    <version>3.0.0-M3</version>
-                </plugin>
-                <plugin>
-                    <groupId>org.apache.maven.plugins</groupId>
-                    <artifactId>maven-assembly-plugin</artifactId>
-                    <version>3.1.1</version>
-                    <executions>
-                        <execution>
-                            <phase>package</phase>
-                            <goals>
-                                <goal>single</goal>
-                            </goals>
-                        </execution>
-                    </executions>
-                </plugin>
-                <plugin>
-                    <groupId>org.openclover</groupId>
-                    <artifactId>clover-maven-plugin</artifactId>
-                </plugin>
-            </plugins>
-        </pluginManagement>
-    </build>
+    <!-- Dependencies required by all modules -->
+    <dependencies>
+        <dependency>
+            <groupId>javax.inject</groupId>
+            <artifactId>javax.inject</artifactId>
+            <version>1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
 
 </project>

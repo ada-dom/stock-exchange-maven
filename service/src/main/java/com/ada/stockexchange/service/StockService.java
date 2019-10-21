@@ -5,9 +5,11 @@ import com.ada.stockexchange.domain.StockCurrency;
 import com.ada.stockexchange.domain.StockPrice;
 import com.ada.stockexchange.domain.StockRepository;
 import com.ada.stockexchange.interfaces.ExternalStockInformationService;
+import org.springframework.stereotype.Component;
 
 import java.util.logging.Logger;
 
+@Component
 public class StockService {
 
     private static final Logger LOGGER = Logger.getLogger("com.ada.stockexchange.service.StockService");
